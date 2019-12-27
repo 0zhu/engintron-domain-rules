@@ -29,12 +29,9 @@ Options:
 
 ## Installation
 ```
-cd /usr/local/bin/ && curl -skLo engintron-domain-rules https://github.com/zhubanRuban/engintron-domain-rules/raw/master/engintron-domain-rules && chmod +x engintron-domain-rules && cd -
+cd /usr/local/bin/ && curl -skLo engintron-domain-rules https://github.com/zhubanRuban/engintron-domain-rules/raw/master/engintron-domain-rules && sh engintron-domain-rules install && cd -
 ```
-Setup cron (optional):
-```
-engintron-domain-rules install
-```
+
 ## Uninstallation
 ```
 engintron-domain-rules remove && rm -f /usr/local/bin/engintron-domain-rules
